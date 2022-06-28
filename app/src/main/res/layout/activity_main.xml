@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:id="@+id/cardView"
+        android:id="@+id/linear_layout"
         android:layout_width="match_parent"
         android:layout_height="117dp"
         android:layout_margin="16dp"
@@ -22,9 +22,9 @@
         android:layout_height="93dp"
         android:layout_margin="12dp"
         android:src="@drawable/avatar"
-        app:layout_constraintBottom_toBottomOf="@+id/cardView"
-        app:layout_constraintStart_toStartOf="@+id/cardView"
-        app:layout_constraintTop_toTopOf="@+id/cardView"
+        app:layout_constraintBottom_toBottomOf="@+id/linear_layout"
+        app:layout_constraintStart_toStartOf="@+id/linear_layout"
+        app:layout_constraintTop_toTopOf="@+id/linear_layout"
         app:shapeAppearanceOverlay="@style/roundedCornersImageView" />
 
     <TextView
@@ -48,7 +48,7 @@
         android:textColor="@color/white"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="@id/text_name"
-        app:layout_constraintEnd_toEndOf="@id/cardView"
+        app:layout_constraintEnd_toEndOf="@id/linear_layout"
         app:layout_constraintTop_toTopOf="@id/text_name" />
 
     <TextView
@@ -76,7 +76,7 @@
         android:textSize="12sp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="@+id/text_department"
-        app:layout_constraintEnd_toEndOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="@+id/linear_layout"
         app:layout_constraintTop_toTopOf="@+id/text_department" />
 
     <TextView
@@ -105,7 +105,7 @@
         android:textSize="12sp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="@id/text_iso"
-        app:layout_constraintEnd_toEndOf="@id/cardView"
+        app:layout_constraintEnd_toEndOf="@id/linear_layout"
         app:layout_constraintTop_toTopOf="@id/text_iso" />
 
     <TextView
